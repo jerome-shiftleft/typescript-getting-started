@@ -7,7 +7,7 @@ function add(num1: number, num2: number): number {
 }
 
 if (button && input1 && input2) {
-  button.addEventListener("click", function() {
-    console.log(add(+input1.value, +input2.value));
+  button.addEventListener("click", function () {
+    console.log(add(parseFloat(input1.value), parseFloat(input2.value)));
   });
 }
